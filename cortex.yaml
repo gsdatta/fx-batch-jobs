@@ -16,7 +16,7 @@ info:
       - name: Datadog Dashboard
         type: DOCUMENTATION
         url: https://app.datadoghq.com/dashboard/89v-urx-nzd/tx-billing-gate-keeper
-    x-pagerduty-service: P99WBNN
+    x-pagerduty-service: PR9VZLM
 paths:
   /v1/Accounts/{AccountSid}/Billing/PIIData:
     delete:
@@ -201,6 +201,8 @@ components:
           type: string
     StoredValueAccountPUTParams:
       type: object
+      #required:
+          #- billing_address_sid
       properties:
         billing_address_sid:
           type: string
@@ -220,8 +222,6 @@ components:
           type: string
         creditLimit:
           type: string
-#      required:
-#        - billing_adddress_sid
     StoredValueAccount:
       type: object
       properties:
