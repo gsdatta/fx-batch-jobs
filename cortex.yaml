@@ -222,7 +222,7 @@ components:
           type: string
       required:
         - billing_adddress_sid
-	- flags
+        - flags
     StoredValueAccount:
       type: object
       properties:
