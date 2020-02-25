@@ -6,6 +6,7 @@ info:
         email: billing-pipeline@twilio.com
     version: 1.0.0
     x-cortex-tag: billing-gate-keeper
+    x-github-repository: gsdatta/BillingGateKeeper
     x-cortex-link:
       - name: Github Repository
         type: DOCUMENTATION
