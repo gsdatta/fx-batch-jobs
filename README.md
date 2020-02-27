@@ -1,4 +1,4 @@
-# Fx-batch-jobs Code
+# Fx-batch-jobs
 
 This repository houses the example code for the official Absinthe tutorial
 that ships with [Absinthe's documentation](https://hexdocs.pm/absinthe).
