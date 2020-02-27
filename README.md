@@ -3,6 +3,8 @@
 This repository houses the example code for the official Absinthe tutorial
 that ships with [Absinthe's documentation](https://hexdocs.pm/absinthe).
 
+fx-batch-jobs is on Cortex!
+
 It currently targets:
 
 - Absinthe v1.4
