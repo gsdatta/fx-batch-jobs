@@ -85,7 +85,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/BillingTaskPOSTParams'
-  /v1/StoredValueAccount/{StoredValueAccountSid}:
+  /v1/StoredValueAccounts/{StoredValueAccountSid}:
     get:
       summary: Fetch a StoredValueAccount instance by SVA SID
       tags:
